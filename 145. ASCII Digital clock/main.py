@@ -17,4 +17,4 @@ def ascii_time(timestr: str) -> str:
 
 if __name__ == '__main__':
     now = datetime.now().strftime("%H:%M:%S")
-    ascii_time(now)
+    print(ascii_time(now))
